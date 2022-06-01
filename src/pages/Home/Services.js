@@ -34,8 +34,8 @@ const Services = () => {
 					<div class='card-body items-center text-center'>
 						<h2 class='card-title'>Graphic Design</h2>
 						<p>
-							We craft stunning and amazing web UI, using a well drafted
-							UX to fit your product.
+							Amazing flyers,social media posts and brand representations
+							that would make your brand stand out.
 						</p>
 						<div class='card-actions'>
 							<button class='btn btn-primary'>Buy Now</button>
@@ -49,8 +49,8 @@ const Services = () => {
 					<div class='card-body items-center text-center'>
 						<h2 class='card-title'>Web Development</h2>
 						<p>
-							We craft stunning and amazing web UI, using a well drafted
-							UX to fit your product.
+							With well written codes,we build amazzing apps for all
+							platforms,,mobile and web apps in general.
 						</p>
 						<div class='card-actions'>
 							<button class='btn btn-primary'>Buy Now</button>
