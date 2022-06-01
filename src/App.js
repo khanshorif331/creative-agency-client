@@ -16,6 +16,7 @@ function App() {
 			<h1 className='text-3xl font-bold' style={{ color: 'red' }}>
 				Hello World Love from shorif
 			</h1>
+			<button class='btn'>Button</button>
 		</div>
 	)
 }
