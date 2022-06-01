@@ -13,7 +13,9 @@ function App() {
 	return (
 		<div className='App'>
 			<Particles options={particlesOptions} init={particlesInit} />
-			<h1 style={{ color: 'red' }}>Hello World Love from shorif</h1>
+			<h1 className='text-3xl font-bold' style={{ color: 'red' }}>
+				Hello World Love from shorif
+			</h1>
 		</div>
 	)
 }
