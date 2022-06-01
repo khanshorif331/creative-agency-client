@@ -1,4 +1,5 @@
 import React from 'react'
+import Home from '../Home/Home'
 
 const Navbar = () => {
 	return (
@@ -38,7 +39,8 @@ const Navbar = () => {
 					</div>
 				</div>
 				{/* <!-- Page content here --> */}
-				Content
+				{/* Content */}
+				<Home></Home>
 			</div>
 			<div class='drawer-side'>
 				<label for='my-drawer-3' class='drawer-overlay'></label>

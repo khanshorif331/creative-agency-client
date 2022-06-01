@@ -4,6 +4,8 @@ import { loadFull } from 'tsparticles'
 import logo from './logo.svg'
 import './App.css'
 import particlesOptions from './particles.json'
+import Navbar from './pages/Shared/Navbar'
+import Home from './pages/Home/Home'
 
 function App() {
 	const particlesInit = useCallback(main => {
@@ -11,12 +13,13 @@ function App() {
 	}, [])
 
 	return (
-		<div className='App'>
-			<Particles options={particlesOptions} init={particlesInit} />
-			<h1 className='text-3xl font-bold' style={{ color: 'red' }}>
-				Hello World Love from shorif
-			</h1>
-			<button class='btn'>Button</button>
+		<div>
+			<Particles
+				className='z-50'
+				options={particlesOptions}
+				init={particlesInit}
+			/>
+			<Navbar></Navbar>
 		</div>
 	)
 }
