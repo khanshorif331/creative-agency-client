@@ -8,7 +8,7 @@ const Banner = () => {
 		// className='bg-cover bg-no-repeat bg-center bg-blend-overlay z-[-10]'
 		>
 			<div class='hero min-h-screen'>
-				<div class='hero-content grid grid-cols-1 md:grid-cols-2'>
+				<div class='hero-content grid grid-cols-1 md:grid-cols-2 place-items-center'>
 					{/* hero-content flex-col lg:flex-row-reverse justify-center items-center */}
 
 					<div className='text-white'>
@@ -19,13 +19,14 @@ const Banner = () => {
 							</span>
 							<span className='hover:text-red-600'>Next Level</span>
 						</div>
-						<p class='py-6'>
+						<p class='py-6 leading-6'>
 							Provident cupiditate voluptatem et in. Quaerat fugiat ut
 							assumenda excepturi exercitationem quasi. In deleniti eaque
-							aut repudiandae et a id nisi.
+							aut repudiandae et a id nisi.So join with us and get our
+							service.
 						</p>
 						<button
-							class='btn btn-primary uppercase
+							class='btn btn-primary uppercase px-12
                         '
 						>
 							Hire Us

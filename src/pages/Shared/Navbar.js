@@ -1,7 +1,37 @@
 import React from 'react'
+import { Link, NavLink } from 'react-router-dom'
 import Home from '../Home/Home'
 
-const Navbar = () => {
+const Navbar = ({ children }) => {
+	const navigation = (
+		<>
+			<li>
+				<NavLink className='rounded-md' to='/'>
+					Home
+				</NavLink>
+			</li>
+			<li>
+				<NavLink className='rounded-md' to='/ourPortfolio'>
+					Our Portfolio
+				</NavLink>
+			</li>
+			<li>
+				<NavLink className='rounded-md' to='/ourTeam'>
+					Our Team
+				</NavLink>
+			</li>
+			<li>
+				<NavLink className='rounded-md' to='/contactUs'>
+					Contact Us
+				</NavLink>
+			</li>
+			<li>
+				<NavLink className='rounded-md uppercase' to='/login'>
+					Login
+				</NavLink>
+			</li>
+		</>
+	)
 	return (
 		<div class='drawer'>
 			<input id='my-drawer-3' type='checkbox' class='drawer-toggle' />
@@ -29,29 +59,18 @@ const Navbar = () => {
 					<div class='flex-none hidden lg:block'>
 						<ul class='menu menu-horizontal'>
 							{/* <!-- Navbar menu content here --> */}
-							<li>
-								<a>Navbar Item 1</a>
-							</li>
-							<li>
-								<a>Navbar Item 2</a>
-							</li>
+							{navigation}
 						</ul>
 					</div>
 				</div>
 				{/* <!-- Page content here --> */}
-				{/* Content */}
-				<Home></Home>
+				{children}
 			</div>
 			<div class='drawer-side'>
 				<label for='my-drawer-3' class='drawer-overlay'></label>
 				<ul class='menu p-4 overflow-y-auto w-80 bg-base-100'>
 					{/* <!-- Sidebar content here --> */}
-					<li>
-						<a>Sidebar Item 1</a>
-					</li>
-					<li>
-						<a>Sidebar Item 2</a>
-					</li>
+					{navigation}
 				</ul>
 			</div>
 		</div>
