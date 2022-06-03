@@ -1,5 +1,3 @@
-// import React from 'react';
-
 import React, { useRef, useState } from 'react'
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react'
@@ -18,7 +16,6 @@ import { Autoplay, EffectCoverflow, Pagination } from 'swiper'
 const Works = () => {
 	return (
 		<div>
-			{/* <> */}
 			<h1 className='text-white font-bold text-3xl text-center'>
 				Here are some of <span className='text-red-600'>Our Works</span>
 			</h1>
@@ -70,15 +67,8 @@ const Works = () => {
 					<img src='https://swiperjs.com/demos/images/nature-9.jpg' />
 				</SwiperSlide>
 			</Swiper>
-			{/* </> */}
 		</div>
 	)
 }
 
 export default Works
-
-// export default function App() {
-//   return (
-
-//   );
-// }

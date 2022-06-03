@@ -16,8 +16,8 @@ body {
 
 .swiper {
   width: 100%;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
 }
 
 .swiper-slide {
