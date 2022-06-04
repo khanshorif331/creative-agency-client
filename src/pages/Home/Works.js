@@ -63,9 +63,7 @@ const Works = () => {
 				<SwiperSlide>
 					<img src='https://swiperjs.com/demos/images/nature-8.jpg' />
 				</SwiperSlide>
-				<SwiperSlide>
-					<img src='https://swiperjs.com/demos/images/nature-9.jpg' />
-				</SwiperSlide>
+				
 			</Swiper>
 		</div>
 	)
